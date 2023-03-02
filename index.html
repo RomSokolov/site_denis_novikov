@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis_Novikov</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="burger">
+      <input class="burger__check" type="checkbox" />
+      <div class="burger__lines">
+        <span class="burger__line"></span>
+      </div>
+      <ul class="burger__list">
+        <li class="burger__item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="burger__item"><a class="nav-link" href="#about">About me</a></li>
+        <li class="burger__item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="burger__item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="burger__item"><a class="nav-link" href="#contacts">Contacts</a></li>
+      </ul>
+    </div>
+    <header class="page-header">
+      <div class="header-container">
+        <nav class="main-nav">
+          <ul class="site-navigation">
+            <li class="site-navigation-item">
+              <a href="#home" class="activepage">Home</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#about">About me</a>
+            </li>
+            <li class="site-navigation-item"><a href="#skills">Skills</a></li>
+            <li class="site-navigation-item">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="site-navigation-item">
+              <a href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero" id="home">
+        <div class="hero-container">
+          <div class="hero-title">
+            <h1>
+              Denis <br />
+              Novik
+            </h1>
+            <p>
+              UX | UI designer <br />
+              24 years old, Minsk
+            </p>
+          </div>
+
+          <div class="hero-img-container">
+            <img
+              class="hero-img"
+              srcset="./img/denis_novik.webp, ./img/denis_novik@2.webp 2x"
+              alt="Denis_Novikov_photo"
+            />
+            <img
+              class="hero-img-mobile"
+              src="./img/denis_novik_mobile.webp"
+              alt="Denis_Novikov_photo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-container">
+          <h2>About me</h2>
+          <p>
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+          </p>
+          <p>
+            I'm studying at courses "Web and mobile design <br />
+            interfaces" in IT-Academy.
+          </p>
+          <p>
+            Ready to implement excellent projects <br />
+            with wonderful people.
+          </p>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills-container">
+          <h2>Skills</h2>
+          <p>I work in such programs as</p>
+
+          <div class="skills-list">
+            <div class="skills-item">
+              <img
+                srcset="./img/Ps.png, ./img/Ps@2.png 2x"
+                src="./img/Ps.png"
+                alt="photoshop"
+              />
+            </div>
+            <div class="skills-item">
+              <img
+                srcset="./img/Ai.png, ./img/Ai@2.png 2x"
+                src="./img/Ai.png"
+                alt="Ilustrator"
+              />
+            </div>
+            <div class="skills-item">
+              <img
+                srcset="./img/Ae.png, ./img/Ae@2.png 2x"
+                src="./img/Ae.png"
+                alt="After_Effects"
+              />
+            </div>
+            <div class="skills-item">
+              <img
+                srcset="./img/Figma.png, ./img/Figma@2.png 2x"
+                src="./img/Figma.png"
+                alt="Figma"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+          <h2>Portfollio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                srcset="./img/portfolio1.webp, ./img/portfolio1@2.webp 2x"
+                alt="fashion_store"
+              /><a href="#">Online fashion store - Homepage</a>
+            </li>
+            <li class="portfolio-item">
+              <img
+                srcset="./img/portfolio2.webp, ./img/portfolio2@2.webp 2x"
+                alt="reebok_store"
+              /><a href="#">Reebok Store - Concept</a>
+            </li>
+            <li class="portfolio-item">
+              <img
+                srcset="./img/portfolio3.webp, ./img/portfolio3@2.webp 2x"
+                alt="Braun_Landing"
+              /><a href="#">Braun Landing Page - Concept</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="page-footer" id="contacts">
+        <div class="footer-container">
+          <h2>Contacts</h2>
+          <p class="contact__text">
+            Want to know more or just chat? <br />
+            You are welcome!
+          </p>
+          <button class="send_button">Send message</button>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <img class="contacts-img" src="./img/in.svg" alt="in" />
+            </li>
+            <li class="contacts-item">
+              <img
+                class="contacts-img"
+                src="./img/instagram.svg"
+                alt="instagram"
+              />
+            </li>
+            <li class="contacts-item">
+              <img class="contacts-img" src="./img/be.svg" alt="bechance" />
+            </li>
+            <li class="contacts-item">
+              <img class="contacts-img" src="./img/ball.svg" alt="dribble" />
+            </li>
+          </ul>
+          <p class="like_me">
+            Like me on <br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/burger.js"></script>
+  </body>
+</html>

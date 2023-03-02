@@ -1,0 +1,215 @@
+.footer-container {
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 114px;
+  margin-bottom: 123px;
+  align-items: center;
+  text-align: center;
+}
+
+.page-footer h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+}
+
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 45px;
+ 
+}
+
+.send_button {
+  width: 180px;
+  height: 42px;
+  border-radius: 50px;
+  margin-bottom: 86px;
+  color: #ffffff;
+  background: black;
+}
+
+.contacts-img {
+  display: block;
+  max-width: 40px;
+}
+
+.contacts-item {
+  margin-right: 60px;
+}
+
+.contacts-item:last-child {
+  margin-right: 0;
+}
+
+.like_me {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+@media (max-width: 1250px) {
+
+  .footer-container h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+
+  .contact__text {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
+
+  .footer-container button {
+    margin-bottom: 50px;
+  }
+
+  .contacts-list {
+    margin-bottom: 40px;
+  }
+
+  .contacts-item {
+    margin-right: 50px;
+  }
+}
+
+ @media (max-width: 670px) {
+
+  .footer-container {
+    max-width: 90%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  
+  .footer-container h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+
+  .contact__text {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 8px;
+  }
+
+  .footer-container button {
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 25px;
+  }
+
+  .contacts-list {
+    margin-bottom: 20px;
+  }
+
+  .contacts-item {
+    margin-right: 20px;
+  }
+
+
+  .like_me {
+    font-size: 8px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer-container {
+    max-width: 375px;
+    margin-top: 82px;
+    margin-bottom: 90px;
+  }
+  
+  .footer-container h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 27px;
+  }
+
+  .contact__text {
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 29px;
+  }
+
+  .footer-container button {
+    font-size: 10px;
+    width: 100%;
+    height: 42                 px;
+    margin-bottom: 48px;
+  }
+
+  .contacts-list {
+    width: 100%;
+    margin-bottom: 49px;
+    justify-content: space-between;
+  }
+
+  .contacts-img {
+    max-width: 30px;
+  }
+
+  .like_me {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer-container {
+    max-width: 316px;
+    margin-top: 82px;
+    margin-bottom: 90px;
+  }
+  
+  .footer-container h2 {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 27px;
+  }
+
+  .contact__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 29px;
+  }
+
+  .footer-container button {
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 48px;
+  }
+
+  .contacts-list {
+    width: 100%;
+    margin-bottom: 49px;
+    justify-content: space-between;
+  }
+
+  .contacts-img {
+    max-width: 400px;
+  }
+
+  .like_me {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+
+
+
+ 
