@@ -55,6 +55,11 @@
   color: #828282;
 }
 
+.like_me a {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 1250px) {
 
   .footer-container h2 {
